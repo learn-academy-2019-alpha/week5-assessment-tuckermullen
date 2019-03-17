@@ -11,10 +11,9 @@
 #hello_world("de") should return "Hallo Welt"
 
 def hello_world(lang)
-  language = "Hola Munda" if lang == "es"
-  language = "Hallo Welt" if lang == "de"
-  language = "Bonjour le Monde" if lang == "fr"
-  p language
+  p "Hola Munda" if lang == "es"
+  p "Hallo Welt" if lang == "de"
+  p "Bonjour le Monde" if lang == "fr"
 end
 
 hello_world('es')
